@@ -55,5 +55,5 @@ export function useFetch(url) {
         }
     };
 
-    return { data, loading, error, handleRequest };
+    return { data, setData, loading, error, handleRequest };
 }
