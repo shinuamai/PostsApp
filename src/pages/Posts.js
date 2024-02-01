@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import { useFetch } from '../hooks/useFetch';
 
 const Posts = () => {
@@ -81,7 +82,19 @@ const Posts = () => {
     const currentPosts = data?.slice(indexOfFirstPost, indexOfLastPost);
 
     return (
-        <div className="sm:px-10 lg:px-36 xl:px-40 mt-3 px-4">
+        <>
+            <nav className="shadow-md rounded-lg py-4 sm:px-10 lg:px-36 xl:px-40 px-4">
+                <div className="flex justify-between font-medium">
+                    <h1 className='font-medium'>
+                    POST APP
+                    </h1>
+                    <div>
+                    <Link to="/" className="mr-3 hover:text-customBlue">HOME</Link>
+                    <Link to="/posts" className="hover:text-customBlue">POSTS</Link>
+                    </div>
+                </div>
+            </nav>
+            <div className="sm:px-10 lg:px-36 xl:px-40 mt-3 px-4">
             <h1 className="text-3xl font-bold  text-customColor text-center">
                 Posts
             </h1>
@@ -115,9 +128,9 @@ const Posts = () => {
                 </tbody>
             </table>
             <div className="flex justify-between mt-3">
-              <button onClick={() => handlePageChange(currentPage - 1)} disabled={currentPage === 1} className={`p-2 rounded-lg text-white ${currentPage === 1 ? 'bg-gray-300' : 'bg-customColor hover:bg-[#89D8B8]'}`}>Anterior
+              <button onClick={() => handlePageChange(currentPage - 1)} disabled={currentPage === 1} className={`p-2 rounded-lg text-white ${currentPage === 1 ? 'bg-gray-300' : 'bg-customColor hover:bg-[#89D8B8] transition duration-300'}`}>Anterior
               </button>
-              <button onClick={() => handlePageChange(currentPage + 1)} disabled={data === null || currentPage === Math.ceil(data.length / postsPerPage)} className={`p-2 rounded-lg text-white ${data === null || currentPage === Math.ceil(data.length / postsPerPage) ? 'bg-gray-300' : 'bg-customColor hover:bg-[#89D8B8]'}`}>Siguiente
+              <button onClick={() => handlePageChange(currentPage + 1)} disabled={data === null || currentPage === Math.ceil(data.length / postsPerPage)} className={`p-2 rounded-lg text-white ${data === null || currentPage === Math.ceil(data.length / postsPerPage) ? 'bg-gray-300' : 'bg-customColor hover:bg-[#89D8B8]transition duration-300'}`}>Siguiente
               </button>
             </div>
             {editingPost && (
@@ -159,6 +172,8 @@ const Posts = () => {
             )}
 
         </div>
+        </>
+
     );
 };
 
