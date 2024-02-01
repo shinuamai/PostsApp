@@ -9,7 +9,7 @@ const Home = () => {
     setSlide(true)
     setTimeout(() => {
       navigate('/posts');
-    }, 2500);
+    }, 1800);
   };
 
   useEffect(() => {
