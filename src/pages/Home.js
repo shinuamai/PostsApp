@@ -34,7 +34,7 @@ const Home = () => {
       <div className="sm:px-10 lg:px-36 xl:px-40 mt-3 px-4 text-center">
         <h1 className="text-3xl font-bold">Bienvenido a la página de inicio</h1>
         <p className="mt-4">
-          Para visualizar los posts haga click en el Siguiente botón.
+          Para visualizar los posts haga click en el siguiente botón.
         </p>
         <button
           onClick={goToPosts}

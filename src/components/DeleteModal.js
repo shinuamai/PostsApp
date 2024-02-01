@@ -6,7 +6,7 @@ const DeleteModal = ({ deletingPost, handleDeletePost, closeDeleteModal }) => {
           <div className="modal-content">
             <h2 className="text-lg font-bold mb-3">Eliminar Post</h2>
             <p className="mb-3">
-              ¿Estás seguro de que deseas eliminar este post?
+              ¿Está seguro de que desea eliminar este post?
             </p>
             <div className="flex justify-end">
               <button
