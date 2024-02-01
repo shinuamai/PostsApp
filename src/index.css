@@ -12,7 +12,7 @@ body {
 
 .slide-down {
   animation-name: slideDown;
-  animation-duration: 3s;
+  animation-duration: 2s;
 }
 
 @keyframes slideDown {
@@ -27,7 +27,7 @@ body {
 
 .slide-up {
   animation-name: slideUp;
-  animation-duration: 3s;
+  animation-duration: 2s;
 }
 
 @keyframes slideUp {
