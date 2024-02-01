@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .shadow-left-right {
@@ -37,7 +37,6 @@ body {
 
   to {
     transform: translateY(-100%);
-
   }
 }
 

@@ -1,6 +1,6 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Home from './pages/Home';
-import Posts from './pages/Posts';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import Posts from "./pages/Posts";
 
 const App = () => {
   return (
@@ -11,7 +11,6 @@ const App = () => {
       </Routes>
     </Router>
   );
-}
+};
 
 export default App;
-
