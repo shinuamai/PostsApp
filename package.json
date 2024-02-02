@@ -15,7 +15,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --coverage",
+    "test": "react-scripts test",
     "eject": "react-scripts eject",
     "test-coverage": "rm -rf test-coverage && react-scripts test --coverageDirectory test-coverage --coverage --watchAll=false --testResultsProcessor jest-sonar-reporter"
   },

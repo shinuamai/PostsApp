@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1706837397405" clover="3.2.0">
-  <project timestamp="1706837397405" name="All files">
-    <metrics statements="115" coveredstatements="39" conditionals="28" coveredconditionals="7" methods="34" coveredmethods="13" elements="177" coveredelements="59" complexity="0" loc="115" ncloc="115" packages="4" files="10" classes="10"/>
+<coverage generated="1706840677864" clover="3.2.0">
+  <project timestamp="1706840677864" name="All files">
+    <metrics statements="115" coveredstatements="40" conditionals="28" coveredconditionals="7" methods="34" coveredmethods="14" elements="177" coveredelements="61" complexity="0" loc="115" ncloc="115" packages="4" files="10" classes="10"/>
     <package name="src">
       <metrics statements="13" coveredstatements="2" conditionals="4" coveredconditionals="0" methods="3" coveredmethods="1"/>
       <file name="App.js" path="D:\Proyects\posts-app\src\App.js">
@@ -93,16 +93,16 @@
       </file>
     </package>
     <package name="src.pages">
-      <metrics statements="58" coveredstatements="23" conditionals="16" coveredconditionals="3" methods="17" coveredmethods="5"/>
+      <metrics statements="58" coveredstatements="24" conditionals="16" coveredconditionals="3" methods="17" coveredmethods="6"/>
       <file name="Home.js" path="D:\Proyects\posts-app\src\pages\Home.js">
-        <metrics statements="13" coveredstatements="12" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="3"/>
+        <metrics statements="13" coveredstatements="13" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="4"/>
         <line num="4" count="2" type="stmt"/>
         <line num="5" count="3" type="stmt"/>
         <line num="6" count="3" type="stmt"/>
         <line num="7" count="3" type="stmt"/>
         <line num="8" count="1" type="stmt"/>
         <line num="9" count="1" type="stmt"/>
-        <line num="10" count="0" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
         <line num="14" count="3" type="stmt"/>
         <line num="15" count="3" type="stmt"/>
         <line num="16" count="3" type="cond" truecount="2" falsecount="0"/>
