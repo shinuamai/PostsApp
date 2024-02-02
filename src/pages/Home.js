@@ -1,5 +1,4 @@
-import { useState, useEffect } from "react";
-import homeGif from "../assets/home.jpg";
+import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 
 const Home = () => {
@@ -27,7 +26,7 @@ const Home = () => {
       id="home"
     >
       <img
-        src={homeGif}
+        src="https://i.ibb.co/hd9F5TP/home.jpg"
         alt="Home"
         className="w-[250px] h-[100px] md:w-[700px] md:h-[300px] lg:w-[970px] lg:h-[400px]"
       />

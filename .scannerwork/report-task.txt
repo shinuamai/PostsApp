@@ -2,5 +2,5 @@ projectKey=posts-app
 serverUrl=http://localhost:9000
 serverVersion=10.3.0.82913
 dashboardUrl=http://localhost:9000/dashboard?id=posts-app
-ceTaskId=AY1lRD91IrP6ap4MwAbx
-ceTaskUrl=http://localhost:9000/api/ce/task?id=AY1lRD91IrP6ap4MwAbx
+ceTaskId=AY1nc7uQIrP6ap4MwAcu
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AY1nc7uQIrP6ap4MwAcu

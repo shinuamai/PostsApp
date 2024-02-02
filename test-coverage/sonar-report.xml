@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+    <file path="D:\Proyects\posts-app\src\tests\components\Menu.test.js">
+        <testCase name="Menu component renders menu items correctly" duration="139"/>
+    </file>
+    <file path="D:\Proyects\posts-app\src\tests\pages\Home.test.js">
+        <testCase name="Home component adds slide-up animation on button click" duration="239"/>
+    </file>
+    <file path="D:\Proyects\posts-app\src\tests\pages\Posts.test.js">
+        <testCase name="Posts component renders loading indicator while fetching data" duration="85"/>
+    </file>
+    <file path="D:\Proyects\posts-app\src\tests\components\Post.test.js">
+        <testCase name="Post component renders the correct number of posts" duration="531"/>
+    </file>
+    <file path="D:\Proyects\posts-app\src\tests\components\DeleteModal.test.js">
+        <testCase name="DeleteModal component renders correctly when deletingPost is provided" duration="113"/>
+        <testCase name="DeleteModal component calls handleDeletePost with post id when &quot;Eliminar&quot; button is clicked" duration="49"/>
+        <testCase name="DeleteModal component calls closeDeleteModal when &quot;Cancelar&quot; button is clicked" duration="16"/>
+    </file>
+    <file path="D:\Proyects\posts-app\src\tests\components\EditModal.test.js">
+        <testCase name="EditModal component renders correctly when editingPost is provided" duration="149"/>
+        <testCase name="EditModal component calls handleUpdatePost with updated post data when &quot;Guardar Cambios&quot; button is clicked" duration="55"/>
+        <testCase name="EditModal component calls closeEditModal when &quot;Cancelar&quot; button is clicked" duration="23"/>
+    </file>
+    <file path="D:\Proyects\posts-app\src\tests\App.test.js">
+        <testCase name="renders Home component when &quot;/&quot; path is matched" duration="150"/>
+    </file>
+</testExecutions>

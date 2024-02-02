@@ -1,3 +1,6 @@
+import React from 'react';
+import PropTypes from 'prop-types';
+
 const EditModal = ({ editingPost, handleUpdatePost, closeEditModal }) => {
   return (
     <>
@@ -47,5 +50,12 @@ const EditModal = ({ editingPost, handleUpdatePost, closeEditModal }) => {
     </>
   );
 };
+
+EditModal.propTypes = {
+  editingPost: PropTypes.object,
+  handleUpdatePost: PropTypes.func.isRequired,
+  closeEditModal: PropTypes.func.isRequired,
+};
+
 
 export default EditModal;

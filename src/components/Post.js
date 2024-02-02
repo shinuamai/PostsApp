@@ -1,4 +1,8 @@
+import React from 'react';
+import PropTypes from 'prop-types';
+
 const Post = ({ posts, onOpenEditModal, onOpenDeleteModal }) => {
+  
   return (
     <table className="mt-3 table-auto border-collapse">
       <tbody className="divide-y divide-white">
@@ -58,6 +62,12 @@ const Post = ({ posts, onOpenEditModal, onOpenDeleteModal }) => {
       </tbody>
     </table>
   );
+};
+
+Post.propTypes = {
+  posts: PropTypes.array,
+  onOpenEditModal: PropTypes.func.isRequired,
+  onOpenDeleteModal: PropTypes.func.isRequired,
 };
 
 export default Post;

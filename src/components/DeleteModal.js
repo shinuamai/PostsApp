@@ -1,4 +1,8 @@
+import React from 'react';
+import PropTypes from 'prop-types';
+
 const DeleteModal = ({ deletingPost, handleDeletePost, closeDeleteModal }) => {
+  
   return (
     <>
       {deletingPost && (
@@ -27,6 +31,12 @@ const DeleteModal = ({ deletingPost, handleDeletePost, closeDeleteModal }) => {
       )}
     </>
   );
+};
+
+DeleteModal.propTypes = {
+  deletingPost: PropTypes.object,
+  handleDeletePost: PropTypes.func.isRequired,
+  closeDeleteModal: PropTypes.func.isRequired,
 };
 
 export default DeleteModal;
