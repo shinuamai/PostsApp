@@ -27,6 +27,12 @@ You may also see any lint errors in the console.
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
+### `npm run test-coverage`
+
+for config and create sonar report and testing coverage
+ "test-coverage": "rm -rf test-coverage && react-scripts test --coverageDirectory test-coverage --coverage --watchAll=false --testResultsProcessor jest-sonar-reporter"
+ 
+
 ### `npm run build`
 
 Builds the app for production to the `build` folder.\
